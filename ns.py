@@ -4,3 +4,6 @@ def fact(a):
 		return 0
 	else:
 		fact(a-1)*fact(a)
+
+x=int(input("ingrese numero para fatorial"))
+fact(x)
